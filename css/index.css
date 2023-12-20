@@ -4,7 +4,12 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-@import url('https://fonts.cdnfonts.com/css/bambi-handwritten');
+/* @import url('https://fonts.cdnfonts.com/css/bambi-handwritten'); */
+
+@font-face {
+  font-family: 'Bambi Handwritten';
+  src: url('/assets/Bambi\ Handwritten\ Font.woff') format('woff'); 
+}
 
 body{
   background-color:#97bda1;
@@ -74,7 +79,7 @@ nav ul li a{
     padding: 10px 20px;
     border: 0;
     outline: 0;
-    border-radius: 5px;
+    border-radius: 10px;
     background: #3b3b3b;
     color: #fff;
     font-weight: 500;
@@ -148,10 +153,15 @@ nav ul li a{
   justify-content: space-between;
   margin-right: 10%;
   margin-left: 10%;
+
+}
+.pgmlogo:hover {
+  filter: grayscale(100%);
 }
 
 .pgmlogo{
   width: 5%;
+  transition: filter 0.2s ease;
 }
 
 .projects{
@@ -169,7 +179,7 @@ nav ul li a{
     padding: 10px 10px;
     border: 0;
     outline: 0;
-    border-radius: 5px;
+    border-radius: 10px;
     background: #3b3b3b;
     color: #fff;
     font-weight: 500;
@@ -177,8 +187,36 @@ nav ul li a{
     animation: myanimation2 60s infinite;
     margin-left: 2%;
 }
+.invpjtbtn{
+  align-items: center;
+  padding: 10px 10px;
+  border: 1px solid rgb(155, 155, 155);
+  outline: 0;
+  border-radius: 10px;
+  background: #3b3b3b;
+  color: #363636;
+  font-weight: 500;
+  cursor: pointer;
+  animation: myanimation 60s infinite;
+  margin-left: 2%;
+}
 
 
+
+
+
+#contacttext{
+  width: 50%;
+  height: 50px;
+  border-radius: 15px;
+}
+
+.social{
+  width: 2%;
+  margin: 1%;
+  display: inline;
+
+}
 
 
 
