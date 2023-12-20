@@ -173,6 +173,9 @@ nav ul li a{
   width: 8%;
   padding-right: 2%;
 }
+.pjtlogo:hover{
+  filter: sepia(100%);
+}
 
 .pjtbtn{
     align-items: center;
@@ -220,6 +223,16 @@ nav ul li a{
 .social:hover {
   filter: grayscale(0%);
 }
+.socicon{
+  width: 2%;
+  margin-left: 2%;
+}
+.social22{
+  width: 2.2%;
+  margin: 0%;
+  filter: grayscale(0%);
+  margin-right: 1%;
+}
 
 
 
@@ -240,7 +253,7 @@ nav ul li a{
   @media only screen and (max-width: 600px) {
 
     .logo{
-      width: 50%;
+      width: 40%;
       padding-right: -5%;
     }
     .pgmlogo{
@@ -258,9 +271,23 @@ nav ul li a{
         margin-left: 2%;
         margin-right: 10%;
     }
-
-
     .social22{
+      width: 6%;
+    }
+    .socicon{
       width: 5%;
+    }
+
+    nav ul{
+      display: none;
+    }
+    .logo{
+      padding: 0;
+      padding-bottom: 3%;
+      padding-top: 3%;
+      
+    }
+    nav{
+      justify-content: center;
     }
 }
