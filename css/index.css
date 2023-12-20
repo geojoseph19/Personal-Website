@@ -120,6 +120,12 @@ nav ul li a{
   flex-direction: column;
   justify-content: center;
 }
+.resume{
+  border-radius: 5px;
+  padding: 2%;
+  margin-top: 2%;
+}
+
 
 .bgwave{
   width: 100%;
@@ -263,13 +269,20 @@ nav ul li a{
       width: 15%;
     }
     .hero{
-      padding-top: 35%;
+      padding-top: 22%;
     }
 
     .profilepic {
         margin-top: 15%;
         margin-left: 2%;
         margin-right: 10%;
+        width: 40%;
+    }
+    .resume{
+      margin-bottom: 2%;
+    }
+    .skills{
+      font-size: 230%;
     }
     .social22{
       width: 6%;
