@@ -212,10 +212,13 @@ nav ul li a{
 }
 
 .social{
-  width: 2%;
+  width: 100%;
   margin: 1%;
   display: inline;
-
+  filter: grayscale(100%);
+}
+.social:hover {
+  filter: grayscale(0%);
 }
 
 
@@ -254,5 +257,9 @@ nav ul li a{
         margin-top: 15%;
         margin-left: 2%;
         margin-right: 10%;
+    }
+
+    .social{
+      width: 5%;
     }
 }
