@@ -20,7 +20,7 @@ body{
   
     background-size: cover;
     background-position: center;
-    padding: 0 0; /* set the header width */
+    padding: 0 0; /*header width */
     animation: bodyanimation 60s infinite;
     position: fixed;
     
